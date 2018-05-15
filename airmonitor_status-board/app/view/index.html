@@ -1,0 +1,63 @@
+<html>
+    <head>
+      <title>AirMonitor Status Board</title>
+      <style type="text/css">
+        * { margin: 0; padding: 0 }
+        body { background: #000; }
+        #container { text-align: center; }
+        #background { display: inline-block; position: relative; }
+        #background img { height: 100%; }
+        .status-panel { font-family: arial; font-size: 16px; line-height: 1.5em; padding: 6px 10px; position: absolute; background-color: rgba(255, 255, 255, 0.8); text-align: left; border-radius: 6px; }
+        .status-panel.right-arrow:after {content:'';position:absolute;left:100%;top:15px;width:0;height:0;border-width:10px;border-style:solid;border-color:transparent;margin-bottom:19px;border-left-width:16px;border-left-color:currentColor;color:rgba(255, 255, 255, 0.8);}
+        .status-panel.left-arrow:after {content:'';position:absolute;right:100%;top:35px;width:0;height:0;border-width:10px;border-style:solid;border-color:transparent;margin-bottom:19px;border-right-width:16px;border-right-color:currentColor;color:rgba(255, 255, 255, 0.8);}
+        .living-room { right: 66%; top: 54%; }
+        .bed-room { left: 60%; top: 10%; }
+        .guest-room { left: 86%; top: 40% }
+      </style>
+    </head>
+    <body>
+      <div id="container">
+        <div id="background">
+          <img src="/public/img/background.png" />
+          <div class="status-panel right-arrow living-room">
+            客厅<br />
+            PM2.5：<span class="pm25value">-</span>μg/m³<br />
+            温度：<span class="currenttemperature">-</span>°C<br />
+            湿度：<span class="relativehumidity">-</span>%<br />
+          </div>
+          <div class="status-panel left-arrow bed-room">
+            主卧<br />
+            PM2.5：<span class="pm25value">-</span>μg/m³<br />
+            温度：<span class="currenttemperature">-</span>°C<br />
+            湿度：<span class="relativehumidity">-</span>%<br />
+          </div>
+          <div class="status-panel left-arrow guest-room">
+            次卧<br />
+            PM2.5：<span class="pm25value">-</span>μg/m³<br />
+            温度：<span class="currenttemperature">-</span>°C<br />
+            湿度：<span class="relativehumidity">-</span>%<br />
+          </div>
+        </div>
+      </div>
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <script type="text/javascript">
+      function refreshDisplay() {
+        axios.get('status-data').then(function(response) {
+          const allData = response.data;
+          Object.keys(allData).map(key => {
+            [].slice.call(document.querySelectorAll('div.' + key)).map(container => {
+              const data = allData[key];
+              Object.keys(data).map(prop => {
+                (container.querySelector('.' + prop.toLowerCase()) || {}).innerHTML = data[prop];
+              })
+            });
+          });
+        });
+      }
+      setInterval(function() {
+        refreshDisplay();
+      }, 60*1000);
+      refreshDisplay();
+      </script>
+    </body>
+  </html>

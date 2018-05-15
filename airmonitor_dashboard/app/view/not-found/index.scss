@@ -1,0 +1,18 @@
+.not-found {
+    text-align: center;
+    margin: 80px auto;
+
+    p {
+        margin: 16px 0;
+        color: $color-text1-5;
+        font-size: 14px;
+    }
+}
+
+.not-found-img {
+    width: 143px;
+    height: 104px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}

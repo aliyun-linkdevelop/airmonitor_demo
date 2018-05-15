@@ -1,0 +1,27 @@
+{
+  "type": "mobile",
+  "APILevel": "1",
+  "debug": {
+    "param": {
+      "uuid": "",
+      "env": "test"
+    },
+    "default": {
+      "platform": "ios",
+      "ip": "127.0.0.1"
+    },
+    "router": "/"
+  },
+  "release": {
+    "ios": {
+      "appVersion": "3.6.0",
+      "runtimeVersion": "2.0.0"
+    }
+  },
+  "build": {
+    "entry": {
+      "app": "./app.js"
+    }
+  },
+  "bundleId": "__YOUR_MOBILE_PLUGIN_BUNDLE_ID__"
+}

@@ -1,0 +1,16 @@
+# SDK 最低支持版本为 iOS 8.0
+platform:ios, '8.0'
+
+# github 官方 pod 源
+source 'https://github.com/CocoaPods/Specs.git'
+# 阿里云 pod 源
+source 'https://github.com/aliyun/aliyun-specs.git'
+
+# 需要替换下述 "IMSDemoApp" 为开发者 App 的 target 名称
+target "airmonitor" do
+    pod 'IMSApiClient', '1.0.0'
+    pod 'IMSBoneKit', '1.0.1'
+    pod 'AKReactNative', '0.41.2'
+    pod 'MJRefresh', '3.1.15'
+    pod 'ZipArchive', '1.4.0'
+end

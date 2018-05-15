@@ -1,0 +1,38 @@
+{
+  "name": "untitled",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "pack": "bone build",
+    "start": "bone start"
+  },
+  "dependencies": {
+    "@bone/bone-mobile": "^0.1.1",
+    "@bone/bone-mv": "^0.1.13",
+    "@bone/event-emitter": "^0.1.3",
+    "@bone/logger": "^0.2.2",
+    "@bone/bone-mobile-ui": "aep",
+    "@bone/sdk-base": "^0.1.8",
+    "core-js": "^2.5.1",
+    "invariant": "^2.2.2",
+    "koa-compose": "^4.0.0",
+    "qs": "^6.5.1",
+    "react": "~15.4.2",
+    "react-dom": "~15.4.2",
+    "react-native": "0.41.2",
+    "react-router": "^4.1.1",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "thunk-to-promise": "^1.0.1",
+    "thunkify": "^2.1.2",
+    "type-detect": "^4.0.8"
+  },
+  "bnpm": {
+    "mode": "yarn"
+  },
+  "devDependencies": {
+    "copy-dir": "^0.3.0",
+    "rimraf": "^2.6.2"
+  }
+}

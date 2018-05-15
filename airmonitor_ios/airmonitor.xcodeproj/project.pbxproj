@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40922312CADDABA5E262A4F4 /* libPods-airmonitor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 172DCD576FC6E72C9DC815D0 /* libPods-airmonitor.a */; };
+		8909F010202EFC7C004F5106 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8909F00F202EFC7C004F5106 /* AppDelegate.m */; };
+		8909F013202EFC7C004F5106 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8909F012202EFC7C004F5106 /* ViewController.m */; };
+		8909F016202EFC7C004F5106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8909F014202EFC7C004F5106 /* Main.storyboard */; };
+		8909F018202EFC7C004F5106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8909F017202EFC7C004F5106 /* Assets.xcassets */; };
+		8909F01B202EFC7C004F5106 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8909F019202EFC7C004F5106 /* LaunchScreen.storyboard */; };
+		8909F01E202EFC7C004F5106 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8909F01D202EFC7C004F5106 /* main.m */; };
+		8909F025202F3650004F5106 /* yw_1222_07e8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8909F024202F3650004F5106 /* yw_1222_07e8.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		172DCD576FC6E72C9DC815D0 /* libPods-airmonitor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-airmonitor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8909F00B202EFC7C004F5106 /* airmonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = airmonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8909F00E202EFC7C004F5106 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8909F00F202EFC7C004F5106 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8909F011202EFC7C004F5106 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8909F012202EFC7C004F5106 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8909F015202EFC7C004F5106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8909F017202EFC7C004F5106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8909F01A202EFC7C004F5106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8909F01C202EFC7C004F5106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8909F01D202EFC7C004F5106 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8909F024202F3650004F5106 /* yw_1222_07e8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yw_1222_07e8.jpg; sourceTree = SOURCE_ROOT; };
+		A9E2A4A0C618DDD5717A0A85 /* Pods-airmonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airmonitor.release.xcconfig"; path = "Pods/Target Support Files/Pods-airmonitor/Pods-airmonitor.release.xcconfig"; sourceTree = "<group>"; };
+		DD7A9700B74E9D301B44654B /* Pods-airmonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airmonitor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-airmonitor/Pods-airmonitor.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8909F008202EFC7C004F5106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40922312CADDABA5E262A4F4 /* libPods-airmonitor.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		091DD99D3C261D72D20436A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD7A9700B74E9D301B44654B /* Pods-airmonitor.debug.xcconfig */,
+				A9E2A4A0C618DDD5717A0A85 /* Pods-airmonitor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8909F002202EFC7C004F5106 = {
+			isa = PBXGroup;
+			children = (
+				8909F00D202EFC7C004F5106 /* airmonitor */,
+				8909F00C202EFC7C004F5106 /* Products */,
+				091DD99D3C261D72D20436A1 /* Pods */,
+				D5533B23A6F8F4F5D420E923 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8909F00C202EFC7C004F5106 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8909F00B202EFC7C004F5106 /* airmonitor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8909F00D202EFC7C004F5106 /* airmonitor */ = {
+			isa = PBXGroup;
+			children = (
+				8909F024202F3650004F5106 /* yw_1222_07e8.jpg */,
+				8909F00E202EFC7C004F5106 /* AppDelegate.h */,
+				8909F00F202EFC7C004F5106 /* AppDelegate.m */,
+				8909F011202EFC7C004F5106 /* ViewController.h */,
+				8909F012202EFC7C004F5106 /* ViewController.m */,
+				8909F014202EFC7C004F5106 /* Main.storyboard */,
+				8909F017202EFC7C004F5106 /* Assets.xcassets */,
+				8909F019202EFC7C004F5106 /* LaunchScreen.storyboard */,
+				8909F01C202EFC7C004F5106 /* Info.plist */,
+				8909F01D202EFC7C004F5106 /* main.m */,
+			);
+			path = airmonitor;
+			sourceTree = "<group>";
+		};
+		D5533B23A6F8F4F5D420E923 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				172DCD576FC6E72C9DC815D0 /* libPods-airmonitor.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8909F00A202EFC7C004F5106 /* airmonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8909F021202EFC7C004F5106 /* Build configuration list for PBXNativeTarget "airmonitor" */;
+			buildPhases = (
+				EAD752616A8356AE1727D133 /* [CP] Check Pods Manifest.lock */,
+				8909F007202EFC7C004F5106 /* Sources */,
+				8909F008202EFC7C004F5106 /* Frameworks */,
+				8909F009202EFC7C004F5106 /* Resources */,
+				5A77D22835F9382623C02246 /* [CP] Embed Pods Frameworks */,
+				8EFB025E130CA3877AF2E82D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = airmonitor;
+			productName = airmonitor;
+			productReference = 8909F00B202EFC7C004F5106 /* airmonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8909F003202EFC7C004F5106 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Aliyun;
+				TargetAttributes = {
+					8909F00A202EFC7C004F5106 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8909F006202EFC7C004F5106 /* Build configuration list for PBXProject "airmonitor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8909F002202EFC7C004F5106;
+			productRefGroup = 8909F00C202EFC7C004F5106 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8909F00A202EFC7C004F5106 /* airmonitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8909F009202EFC7C004F5106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8909F025202F3650004F5106 /* yw_1222_07e8.jpg in Resources */,
+				8909F01B202EFC7C004F5106 /* LaunchScreen.storyboard in Resources */,
+				8909F018202EFC7C004F5106 /* Assets.xcassets in Resources */,
+				8909F016202EFC7C004F5106 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A77D22835F9382623C02246 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-airmonitor/Pods-airmonitor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EFB025E130CA3877AF2E82D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-airmonitor/Pods-airmonitor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAD752616A8356AE1727D133 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8909F007202EFC7C004F5106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8909F013202EFC7C004F5106 /* ViewController.m in Sources */,
+				8909F01E202EFC7C004F5106 /* main.m in Sources */,
+				8909F010202EFC7C004F5106 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8909F014202EFC7C004F5106 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8909F015202EFC7C004F5106 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8909F019202EFC7C004F5106 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8909F01A202EFC7C004F5106 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8909F01F202EFC7C004F5106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8909F020202EFC7C004F5106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8909F022202EFC7C004F5106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD7A9700B74E9D301B44654B /* Pods-airmonitor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = airmonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lddemo.airmonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8909F023202EFC7C004F5106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9E2A4A0C618DDD5717A0A85 /* Pods-airmonitor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = airmonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lddemo.airmonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8909F006202EFC7C004F5106 /* Build configuration list for PBXProject "airmonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8909F01F202EFC7C004F5106 /* Debug */,
+				8909F020202EFC7C004F5106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8909F021202EFC7C004F5106 /* Build configuration list for PBXNativeTarget "airmonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8909F022202EFC7C004F5106 /* Debug */,
+				8909F023202EFC7C004F5106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8909F003202EFC7C004F5106 /* Project object */;
+}

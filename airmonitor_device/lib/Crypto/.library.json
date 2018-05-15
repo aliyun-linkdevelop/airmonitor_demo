@@ -1,0 +1,40 @@
+{
+    "description": "Very minimal crypto", 
+    "repository": {
+        "url": "https://github.com/intrbiz/arduino-crypto", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "espressif32", 
+        "espressif8266"
+    ], 
+    "export": {
+        "exclude": [
+            "extras", 
+            "docs", 
+            "tests", 
+            "test", 
+            "*.doxyfile", 
+            "*.pdf"
+        ], 
+        "include": null
+    }, 
+    "authors": [
+        {
+            "maintainer": true, 
+            "name": "Chris Ellis", 
+            "url": null, 
+            "email": null
+        }
+    ], 
+    "keywords": [
+        "other"
+    ], 
+    "id": 2058, 
+    "name": "Crypto", 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "1.0.0", 
+    "homepage": null
+}

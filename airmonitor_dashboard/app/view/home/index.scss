@@ -1,0 +1,14 @@
+.container {
+    background-color: #e5e5e5;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 2;
+}

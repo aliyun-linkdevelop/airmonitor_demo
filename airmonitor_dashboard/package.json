@@ -1,0 +1,20 @@
+{
+  "name": "airmonitor_dashboard",
+  "version": "0.0.1",
+  "description": "airmonitor_dashboard",
+  "main": "app.js",
+  "dependencies": {
+    "@bone/bone-web-sdk": "^0.3.0",
+    "@bone/bone-web-ui": "latest",
+    "@bone/bone-web-ui-dpl": "latest",
+    "@bone/iot-gateway": "^1.0.5",
+    "@boneweb/iot-plugin-panel": "^1.0.21",
+    "highcharts": "^6.0.6",
+    "javascript-time-ago": "^1.0.28",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  },
+  "bnpm": {
+    "mode": "yarn"
+  }
+}
